@@ -13,8 +13,8 @@ Dependencies:
 * argparse
 
 To test this out:
-1. Copy your image in the images directory
-1. Execute the scripts with these arguments:
+1. Copy your image in the `images` directory.
+1. Execute the `detection.py` script with these arguments:
     ```python detection.py -i images/{your-image} -c yolov3.cfg -cl classes.txt -w yolov3.weights```
 1. The detected image will show up in a floating window.
-1. The detected image will be saved in the detected directory with the same name.
+1. The detected image will be saved in the `detected` directory with the same name.
